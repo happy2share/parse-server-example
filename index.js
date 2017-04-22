@@ -20,7 +20,7 @@ var api = new ParseServer({
   restAPIKey: process.env.REST_KEY,
   javascriptKey: process.env.JAVASCRIPT_API_KEY,
   liveQuery: {
-    classNames: ["Drivers"] // List of classes to support for query subscriptions
+    classNames: ["Driver"] // List of classes to support for query subscriptions
   }
 });
 /*
